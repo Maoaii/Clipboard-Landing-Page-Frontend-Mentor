@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-header-mobile {
+    background-image: url("/images/bg-header-mobile.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section-container {
+    @apply flex flex-col gap-5 pb-[12rem] items-center;
+}
+
+.section-title {
+    @apply text-3xl text-dark-grayish-blue font-semibold pb-3;
+}
+
+.section-subheading {
+    @apply text-2xl text-dark-grayish-blue font-semibold pb-3;
+}
+
+.btn {
+    @apply w-full py-3 border-b-[3px] text-white rounded-full shadow-2xl;
+}
