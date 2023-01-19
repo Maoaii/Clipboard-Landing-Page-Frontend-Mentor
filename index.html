@@ -19,7 +19,7 @@
   <title>Frontend Mentor | Clipboard landing page</title>
 </head>
 <body class="font-Bai-Jamjuree text-base bg-white">
-  <header class="bg-header-mobile h-60 flex items-end">
+  <header class="bg-header h-60 flex items-end">
     <img class="mx-auto" src="images/logo.svg" alt="Clipboard Logo">
   </header>
 
@@ -28,25 +28,27 @@
     <section class="section-container">
       <h1 class="section-title">A history of everything you copy</h1>
 
-      <p class="text-grayish-blue">
+      <p class="text-grayish-blue max-w-xl">
         Clipboard allows you to track and organize everything you 
         copy. Instantly access your clipboard on all your devices.
       </p>
 
-      <button class="btn bg-strong-cyan border-strong-darker-cyan">
-        Download for iOS
-      </button>
-        
-      <button class="btn bg-light-blue border-darker-blue">
-        Download for Mac
-      </button>
+      <div class="flex flex-col gap-5 w-80 sm:flex-row  sm:w-96">
+        <button class="btn bg-strong-cyan border-strong-darker-cyan">
+          Download for iOS
+        </button>
+            
+        <button class="btn bg-light-blue border-darker-blue">
+          Download for Mac
+        </button>
+      </div>
     </section>
 
     <section class="section-container">
       <div>
         <h1 class="section-title">Keep track of your snippets</h1>
 
-        <p class="text-grayish-blue">
+        <p class="text-grayish-blue max-w-xl">
           Clipboard instantly stores any item you copy in the cloud, 
           meaning you can access your snippets immediately on all your 
           devices. Our Mac and iOS apps will help you organize everything.
